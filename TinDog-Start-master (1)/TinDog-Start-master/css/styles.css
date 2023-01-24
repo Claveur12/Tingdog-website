@@ -1,0 +1,205 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+.container-fluid {
+  padding: 5% 15%;
+
+}
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+p {
+  color: #8F8F8F;
+}
+
+/* colors section background and text */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+
+
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+
+.navbar-brand {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  align-items: center;
+  color: #434242;
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.download-btn {
+  margin: 5% 2%;
+
+}
+
+/* title section */
+#title .container-fluid {
+  text-align: left;
+}
+
+.big-tile{
+  font-weight: 700;
+  font-size: 3.7rem;
+  line-height: 1.5;
+
+}
+
+/* right column  */
+.right-col {
+
+  position: relative;
+}
+
+/* title image  */
+.iphone6-img {
+  width: 60%;
+  transform: rotate(25deg);
+  /* display: none; */
+  position: absolute;
+  right: 30%;
+
+
+}
+
+/* features */
+#features {
+
+  position: relative;
+  padding: 3% 20%;
+
+}
+
+
+.features-list {
+
+  padding: 4.5%;
+}
+
+.icon-features {
+  color: #EF8172;
+  font-size: 3.5rem;
+}
+
+.icon-features:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+
+
+  background-color: #EF8172;
+
+
+}
+
+.testimonial-text{
+  font-size: 2.7rem;
+  line-height: 1;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+
+}
+
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20 50px;
+}
+
+.pricing-text{
+  font-size: 2.7rem;
+  line-height: 1;
+}
+
+.cardsizing{
+  margin: 50px auto;
+  padding: 3% 2%;
+}
+
+/* CTA section */
+
+
+.cta-text{
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  padding: 3%;
+}
+
+/* footer section */
+
+.icon-footer{
+  color: #B2B2B2;
+  font-weight: bold;
+  margin: 5% 3%;
+  font-size:20px;
+}
+
+
+/* media queries section */
+
+@media (max-width: 1321px) {
+  #title{
+    text-align: left;
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 700; */
+    font-weight: bold;
+    font-size: 2.7rem;
+    line-height: 1;
+    color: #fff;
+  }
+  .right-col {
+    margin: auto;
+    position: static;
+
+  }
+  .iphone6-img {
+    width: 60%;
+    transform: rotate(0);
+    /* display: none; */
+    position: static;
+
+
+  }
+
+}
